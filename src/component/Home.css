@@ -1,0 +1,155 @@
+/* HomePage.css */
+
+/* General styles */
+.home-container {
+    font-family: 'Roboto', sans-serif; /* Use a clean, modern font */
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .home-header {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR2crUu4J2JWafAtVXJEVF4_UkEo26wT0fWA&s');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative; /* To position the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark transparent overlay */
+  }
+  
+  .home-content {
+    position: relative; /* Ensures the content is above the overlay */
+    color: white;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a slight shadow for text readability */
+  }
+  
+  .home-content h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #FFC107;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #333;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add subtle shadow to the button */
+  }
+  
+  .cta-button:hover {
+    background-color: #FFB300;
+    color: white;
+  }
+  
+  .features {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333; /* Dark text color */
+  }
+  
+  .feature {
+    margin-bottom: 30px;
+  }
+  
+  .feature h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FF3B30; /* Red for the headings */
+  }
+  
+  .feature p {
+    font-size: 1.2rem;
+    color: #666; /* Lighter text color for descriptions */
+  }
+  
+  /* Mobile Responsive Design */
+  @media (max-width: 768px) {
+    .home-header {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .home-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .home-content p {
+      font-size: 1.2rem;
+    }
+  
+    .cta-button {
+      font-size: 1.1rem;
+      padding: 12px 25px;
+    }
+  
+    .features h2 {
+      font-size: 2rem;
+    }
+  
+    .feature h3 {
+      font-size: 1.8rem;
+    }
+  }
+  /* HomePage.css */
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  }
+  
+  .home-header {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR2crUu4J2JWafAtVXJEVF4_UkEo26wT0fWA&s');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .home-header .home-content h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .home-header .home-content p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  /* Add any global styles for the page here */
+  
